@@ -1,0 +1,1 @@
+<p>The bibliography making, editing, indexing, and application included in the GTK#-GUI Utility Applications Package (gaslightoffice-gtkutils), or as a standalone application in the gaslightoffice-bibliomake package</p>
