@@ -1,6 +1,11 @@
 /* CSS Document */
 #header {
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444444), color-stop(1, #999999));
-	background-image: -webkit-linear-gradient(top, #444444 0%, #999999 100%);
-	background-image: linear-gradient(top, #444444 0%, #999999 100%);
+background-image: -webkit-gradient(
+	linear,
+	left center,
+	right center,
+	color-stop(0, transparent),
+	color-stop(1, white)
+);
+background-image: -webkit-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,1));
 }
