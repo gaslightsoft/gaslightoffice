@@ -10,20 +10,11 @@
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <link rel="stylesheet" type="text/css" href="styles/menu.css">
     <link rel="stylesheet" type="text/css" href="styles/office.css">
-  <!--<script language="javascript" src="scripts/main.js"> -->
- <!--[if IE]>
- 	<link rel="stylesheet" type="text/css" href="styles/office-ie.css">
-    
- <![endif]-->
-  <!--[if IE]>
+ 	<!--[if IE]> 
+    <link rel="stylesheet" type="text/css" href="styles/office-ie.css"> 
+    <![endif]-->
  	<link rel="stylesheet" type="text/css" href="styles/office-moz.css">
- <![endif]-->
-  <!--[if IE]>
  	<link rel="stylesheet" type="text/css" href="styles/office-webkit.css">
- <![endif]-->
- <!--[if IE]>
-  	<link rel="stylesheet" type="text/css" href="styles/office-opera.css">
- <![endif]-->
   <title>Gaslight Office</title>
   </head>
   <body>
@@ -31,7 +22,11 @@
    	  <image id="gasoffice-logo" src="images/GaslightOffice.png" width="50%"></image>
     </div>
     <div id="menubar" width="100%">
-    	<button  onClick="vun()"></button>
+    	<div id="menu" class="horiz-menu">
+        	<div id="item1" onClick="goHomde()"><a href="home.aspx">Home</a></div>
+            <div id="item2">Products</div>
+            <div id="item3">Downloads</div>
+        </div>
         <p id="para">d</p>
     </div>
   	<div id="content" width="100%">
@@ -45,5 +40,6 @@
   </body>
   <footer>
   <script type="text/javascript" src="scripts/office.js"></script>
+  <script language="javascript" src="scripts/main.js">
   </footer>
 </html>
