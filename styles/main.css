@@ -1,8 +1,20 @@
 @charset "utf-8";
-/* CSS Document */
+/* CSS Document 
+DEFAULT VALUES FOR ENTIRE GASLIGHT SITE
+  This Page Is part of the Gaslight Incorporated and the
+  GaslightOffice Productivity Suite Website. Look but don't touch
+    *MAINTAINER: gregroll5808@gmail.com
+    *Created By Greg Lee
+    *Last Updated 2014
+  Ecellence is here, just turn on the lights! -Gaslight Inc. 
+  
+*/
 body {
-      background-color: gray;
-    }
-    .header{
-		background-color: black;
-    }
+	background-image: url(../images/gaslight.png);
+	background-position: center;
+	alignment-baseline: use-script;
+}
+#header {
+	background-color: transparent;
+	display: table;
+}
