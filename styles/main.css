@@ -15,6 +15,6 @@ body {
 	alignment-baseline: use-script;
 }
 #header {
-	background-color: transparent;
+	background-color: black;
 	display: table;
 }
