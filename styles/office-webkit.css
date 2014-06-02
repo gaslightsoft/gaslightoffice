@@ -1,7 +1,4 @@
 /* CSS Document */
-body {
-	background-color:black;
-}
 #header {
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444444), color-stop(1, #999999));
 	background-image: -webkit-linear-gradient(top, #444444 0%, #999999 100%);
